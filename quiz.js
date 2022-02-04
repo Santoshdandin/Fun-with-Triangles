@@ -1,1 +1,1 @@
-const submitAnswer = document.querySelector("#submit-answer-btn")
+const submitAnswer = document.querySelector("#submit-answer-btn");
