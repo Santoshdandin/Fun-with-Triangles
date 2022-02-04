@@ -1,0 +1,1 @@
+const submitAnswer = document.querySelector("#submit-answer-btn")
