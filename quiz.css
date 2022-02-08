@@ -1,0 +1,27 @@
+/* footer */
+
+footer {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 50px;
+    padding: 0.5rem;
+  }
+  
