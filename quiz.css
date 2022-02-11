@@ -1,4 +1,150 @@
-/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+:root {
+    --primary-dark: #1F2937;
+    --prmary-green: #6EE7B7;
+    
+}
+
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--prmary-green);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    width:600px;
+    margin: auto;
+    display: block;
+}
+
+
+
+ /* input,label {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+} */
+
+label {
+  font-weight: 500;
+  font-size: 1rem;
+  width: 100%;
+  color:white;
+  margin: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: transparent;
+  font-size: large;
+  margin: 1rem 0;
+
+} 
+
+#questions {
+margin-bottom: 0;
+  font-size: large;
+  
+}
+
+
+#submit-answer-btn {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    background: transparent;
+  border: solid;
+  color: var(--prmary-green);
+  border-color: var(--prmary-green);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+#output {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+  }
+
+
+
+  .navigation{
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navigation .nav-pills {
+    /* text-align: right; */
+    color: white;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**Links**/
+.link {
+    box-sizing: border-boxss;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: wheat;
+    display: flex;
+  border: solid;
+  border-radius: 3rem;
+  margin: 0.1rem;
+}
+
+
+  /* footer */
 
 footer {
     text-align: center;
@@ -24,4 +170,5 @@ footer {
     width: 50px;
     padding: 0.5rem;
   }
+
   
