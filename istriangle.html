@@ -8,25 +8,41 @@
     <link rel="stylesheet" href="istriangle.css">
 </head>
 <body>
-    <nav>
-        <a href="istriangle.html">Is triangle?</a>
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Calculate hypotenuse</a>
-        <a href="area.html">Area of triangle</a>
-    </nav>
+  <nav class="navigation ">
+    <div
+    class="nav-brand">Fun with Triangle
+    </div>
+    <ul class="list-non-bullet
+    nav-pills">
+        <li class="list-item-inline">
+            <a class="link link-active" href="istriangle.html">Is triangle?</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="quiz.html">Triangle Quiz</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="hypotenuse.html">Calculate hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="area.html">Area of triangle</a>
+        </li>
+    </ul>
+</nav>  
 
     <h1>Is Triangle?</h1>
-    <label for="angle1">angle1</label>
+    <div class="container">
+    <label for="angle1">Enter first side of a triangle</label>
     <input type="number" class="angle-input"/>
 
-    <label for="angle2">angle1</label>
+    <label for="angle2">Enter second side of a triangle</label>
     <input type="number" class="angle-input"/>
 
-    <label for="angle3">angle1</label>
+    <label for="angle3">Enter second side of a triangle</label>
     <input type="number" class="angle-input"/>
 
     <button id="is-triangle-btn">Is Triangle?</button>
     <div id="output"></div>
+  </div>
 
     <footer>
         <ul class="footer-list">

@@ -9,21 +9,44 @@
     <link rel="stylesheet" href="hypotenuse.css">
 </head>
 <body>
-    <nav>
-        <a href="istriangle.html">Is triangle?</a>
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Calculate hypotenuse</a>
-        <a href="area.html">Area of triangle</a>
-    </nav>
+  <nav class="navigation ">
+    <div
+    class="nav-brand">Fun with Triangle
+    </div>
+    <ul class="list-non-bullet
+    nav-pills">
+        <li class="list-item-inline">
+            <a class="link" href="istriangle.html">Is triangle?</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="quiz.html">Triangle Quiz</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link link-active" href="hypotenuse.html">Calculate hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="area.html">Area of triangle</a>
+        </li>
+    </ul>
+</nav>  
     <h1>Calculate Hypotenuse</h1>
-    <label>a= </label>
+    <div class="container">
+    <label>Enter base value (a) =</label>
+      <input type="number" class="side-input">
+  
+
+    <label>Enter height value (b) = </label>
     <input type="number" class="side-input">
 
-    <label>b= </label>
-    <input type="number" class="side-input">
+    
 
     <button id="hypotenuse-btn">Calculate Hypotenuse</button>
     <div id="output"></div>
+
+</div>
+<h1>Hypotenuse formula</h1>
+<p id="formula">√(base² + height²)</p>
+</body>
 
     <footer>
         <ul class="footer-list">
